@@ -12,7 +12,7 @@
 
 <link rel="canonical" href="./hui-zhi-jing-tai-zheng-chi-lun.html">
 
-        <meta name="author" content="40523219" />
+        <meta name="author" content="40523204" />
         <meta name="keywords" content="繪製靜態正齒輪" />
 
         <meta property="og:site_name" content="協同產品設計實習" />
@@ -23,7 +23,7 @@
         <meta property="article:published_time" content="2018-05-23" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="繪製靜態正齒輪" />
-            <meta property="article:author" content="40523219" />
+            <meta property="article:author" content="40523204" />
 
 
     <!-- Bootstrap -->
@@ -143,7 +143,7 @@
         <i class="fa fa-calendar"></i><time datetime="2018-05-23T12:01:00+08:00"> 週三 23 五月 2018</time>
     </span>
             <span class="label label-default">By</span>
-            <a href="./author/40523219.html"><i class="fa fa-user"></i> 40523219</a>
+            <a href="./author/40523204.html"><i class="fa fa-user"></i> 40523204</a>
 
 
 
@@ -176,7 +176,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="onegear_div" width="800" height="20"></div>
 
-<p><input id="n" value="19"></input><br>
+<p><input id="n" value="4"></input><br>
 <button id="button">Set Number of Gears</button></p>
 <!-- 以下實際利用  Brython 繪圖-->
 
@@ -304,7 +304,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 19
+        n1= 4
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -337,7 +337,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="onegear_div" width="800" height="20"></div>
 
-<p><input id="n" value="19"></input><br />
+<p><input id="n" value="4"></input><br />
 <button id="button">Set Number of Gears</button></p>
 <!-- 以下實際利用  Brython 繪圖-->
 
@@ -465,7 +465,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 19
+        n1= 4
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -511,7 +511,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="19"></input><br />
+<p><input id="cn" value="4"></input><br />
 <button id="button_a">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -548,7 +548,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 19
+        cn1= 4
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -626,7 +626,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="19"></input><br />
+<p><input id="cn" value="4"></input><br />
 <button id="button_a">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -663,7 +663,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 19
+        cn1= 4
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -725,11 +725,6 @@ doc['button_a'].bind('click',draw)
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./hui-zhi-zu-he-zhuan-dong-zheng-chi-lun-2.html">
-                            繪製組合轉動正齒輪2
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <a href="./hui-zhi-zu-he-zhuan-dong-zheng-chi-lun.html">
                             繪製組合轉動正齒輪
                         </a>
@@ -742,11 +737,6 @@ doc['button_a'].bind('click',draw)
                     <li class="list-group-item">
                         <a href="./hui-zhi-jing-tai-zheng-chi-lun.html">
                             繪製靜態正齒輪
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week12.html">
-                            Week12
                         </a>
                     </li>
                 </ul>
